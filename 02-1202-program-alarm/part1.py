@@ -15,11 +15,9 @@ def computer(code):
     return code[0]
 
 
-
-
 if __name__ == '__main__':
-    data = raw_input()
-    code = map(int, data.split(','))
+    data = input()
+    code = list(map(int, data.split(',')))
     code[1] = 12
     code[2] = 2
     print(computer(code))
