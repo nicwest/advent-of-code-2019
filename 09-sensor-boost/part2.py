@@ -111,6 +111,6 @@ class Computer:
 
 if __name__ == '__main__':
     code = list(map(int, input().split(',')))
-    comp = Computer(code, inp=[1])
+    comp = Computer(code, inp=[2])
     comp.run()
     print(comp.out)
